@@ -34,7 +34,7 @@ header {
     background-color:rgb(67, 67, 255);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    border: 10px solid blue;
+    border:10px solid blue;
     text-align: center;
     color: white;
     padding: 25px;
@@ -46,6 +46,10 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+    .contacto {
+        margin-top: 100px;
+    }
+
     .general {
         padding-left: 0%;
         padding-right: 0%;
@@ -64,6 +68,7 @@ header {
     .formulario {
         margin-left: 20px;
         margin-right: 20px;
+        margin-bottom: 100px;
     }
 }
 
